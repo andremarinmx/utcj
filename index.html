@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es-MX"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1"><title>
+	 SISE ALUMNOS
+</title><meta name="keywords" content="SISE UTCJ Universidad Tecnológica de Ciudad Juárez Inscripción Inscripciones Servicios Estudiantiles Escolares"><meta name="description" content="El Sistema Integral de Servicios Estudiantiles (SISE) de la Universidad Tecnológica de Ciudad Juárez provee servicios tales como inscripciones y consulta de información al alumnado y personal administrativo y docente de la institución."><meta name="author" content="Universidad Tecnologica de Ciudad Juarez 2011-2020"><link rel="icon" type="image/ico" href="https://alumnos.utcj.edu.mx/favicon.ico"><link rel="shortcut icon" href="https://alumnos.utcj.edu.mx/favicon.ico"><link type="text/css" rel="stylesheet" href="SISE%20ALUMNOS_files/PixelGreen.css"><link type="text/css" rel="stylesheet" href="SISE%20ALUMNOS_files/jquery-ui.min.css"><link type="text/css" rel="stylesheet" href="SISE%20ALUMNOS_files/colorbox.css"><link type="text/css" rel="stylesheet" href="SISE%20ALUMNOS_files/SISEestilos.css">
+    <script type="text/javascript" src="SISE%20ALUMNOS_files/jquery-1.11.2.min.js"></script>
+    <script src="SISE%20ALUMNOS_files/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="SISE%20ALUMNOS_files/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="SISE%20ALUMNOS_files/global_functions.js"></script>
+
+    
+    <link href="SISE%20ALUMNOS_files/Alumnos.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #headerphoto{ display:none;}
+        #divLogin
+        {
+            width:720px;
+            float:right;
+        }
+        #divPlataformas
+        {
+            float:left;
+            font-size: 12pt;
+            margin: 0;
+            padding: 15px 0px 10px 0px;
+            border-right: 5px solid #EFEDED;
+            background-color: #FFFFFF;
+            width:230px;
+        }
+        .post
+        {
+            overflow:hidden;
+        }
+        #divPlataformas li
+        {
+            display:block;
+            list-style-type:none;
+        }
+        .p1
+        {
+            font-size:20px;
+            font-weight: bold;
+            color: #666;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        .p2
+        {
+            font-size:16px;
+        }
+        .p4
+        {
+            font-size:18px;
+            font-weight: bold;
+            color: #484848;
+            text-align: left;
+            margin-left: 20px;
+            line-height: 26px;
+        }
+        .p5
+        {
+            font-size:16px;
+            font-weight: bold;
+            color: #74A846;
+        }
+        .style1
+        {
+            text-decoration: underline;
+        }
+        .loginInput
+        {
+            font-size: 10pt;
+            height: 16px;
+            margin-right: 4px;
+        }
+        .ahref
+        {
+            display: block;
+            padding-bottom: 14px;
+        }
+        .BotonInicioVerde
+        {
+            height: auto;
+            padding: 8px 4px;
+        }
+        </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input:text").attr({ autocomplete: "off" });
+        });
+    </script>
+
+
+    <style type="text/css">
+        #header{
+            z-index: 4000;
+        }
+        #wrap{
+            z-index: 2000;
+        }
+        #content-wrap{
+            z-index: 3000;
+        }
+        #content{
+            z-index: 3200;
+        }
+        #footer{
+            z-index: 2500;
+        }        
+        .accContainer{
+            filter: alpha(opacity=50);
+        }
+        
+    </style>
+</head>
+<body>
+    <form method="post" action="./" id="form1Wrap">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTI1ODE1MzI2D2QWAmYPZBYCAgMPZBYGAgMPDxYCHgRUZXh0BQ9JbmljaWFyIFNlc2nDs25kZAIFDw8WAh4HVmlzaWJsZWhkZAIND2QWAgIBD2QWAgIIDw8WAh8ABQxAdXRjai5lZHUubXhkZGR6AsMYyzLtRrojZfFZ/tQHaq9YXyz7x4OJ14dLLH6RtA==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1Wrap'];
+if (!theForm) {
+    theForm = document.form1Wrap;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="SISE%20ALUMNOS_files/WebResource_002.js" type="text/javascript"></script>
+
+
+<script src="SISE%20ALUMNOS_files/WebResource.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAlEYaG1PRrQhn1Fli3x/Mu05G0sJMAsQ4cplZpTDg4EXahxhqy6vAbTO1Up27EGFsd7gCTVBMHqxeDk9udBFqCdCM1vOZmSxltX0KOIQAnatG4ggeprhqA85b5Y4bQb24gIHAIXBpWKlt2p3SrbxfJNUYt0407mPcn318ZRHTOGG2NcR3NakZqNA6AMNKj28B/TjZvnN1bt62TDMm7DdhHn7IM9Dem9Xe3lI1aLISTEmw==">
+</div>
+        <div id="header">
+            <div id="header-content">
+                <h1 id="logo">                    
+                    <span class="gray">Sistema Integral de Servicios Estudiantiles</span>
+                </h1>                
+                <!-- Menu Tabs -->
+                <ul id="menu-ut">
+                    <li>
+                        <a id="hlHome" href="https://alumnos.utcj.edu.mx/default.aspx">Inicio</a></li>                    
+                    <li>
+                        <a id="hlLogin" href="https://alumnos.utcj.edu.mx/default.aspx" style="color:#00CC00;">Iniciar Sesión</a></li>
+                    <li>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <div id="wrap">            
+            <div id="content-wrap">                
+                <div id="content">
+                    
+                    
+                    
+                    
+                    <div id="main">                    
+                        <div class="post">
+                            
+    <div id="PanelSuperior" style="width:100%;">
+	
+        <div id="divPlataformas">
+            <ul>
+                <li>
+                    <a id="CphCuerpo_HyperLink3" class="ahref" href="https://www.utcj.edu.mx/" target="_blank">
+                    <img src="SISE%20ALUMNOS_files/utlogo3.png" alt="UTCJ" width="180px"><br>
+                </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a onclick="window.open('http://correo.utcj.edu.mx');" id="CphCuerpo_btnCorreo" class="BotonInicioVerde" href="javascript:__doPostBack('ctl00$CphCuerpo$btnCorreo','')" style="display:inline-block;width:170px;">Correo Institucional</a>
+                </li>
+                <li>
+                    <br>
+                </li>
+                <li>
+                    <a onclick="window.open('https://campusvirtual.utcj.edu.mx/moodle/login/index.php);" id="CphCuerpo_btnMoodle" class="BotonInicioVerde" href="javascript:__doPostBack('ctl00$CphCuerpo$btnMoodle','')" style="display:inline-block;width:170px;">Moodle</a>
+                </li>
+                <li>
+                    <br>
+                </li>
+                <li>
+                    <a onclick="window.open('https://www.utcj.edu.mx/Planeacion/PublishingImages/aviso_buzon_quejas.jpg');" id="CphCuerpo_btnBuzon" class="BotonInicioVerde" href="javascript:__doPostBack('ctl00$CphCuerpo$btnBuzon','')" style="display:inline-block;width:170px;">Buzón de Quejas</a>
+                </li>
+                <li>
+                    <br>
+                </li>
+                <li>
+                    <a onclick="window.open('https://www.utcj.edu.mx/Paginas/Usuarios/Calendario.aspx');" id="CphCuerpo_btnCalendario" class="BotonInicioGris" href="javascript:__doPostBack('ctl00$CphCuerpo$btnCalendario','')" style="display:inline-block;width:170px;">Calendario Escolar</a>
+                </li>
+                <li>
+                    <br>
+                </li>
+                <li>
+                    <a onclick="window.open('https://www.utcj.edu.mx/Paginas/Usuarios/Egresados.aspx');" id="CphCuerpo_btnTitulos" class="BotonInicioGris" href="javascript:__doPostBack('ctl00$CphCuerpo$btnTitulos','')" style="display:inline-block;width:170px;">Entrega de Títulos</a>
+                </li>
+            </ul>
+        </div>
+        <div id="divLogin" class="center">
+            <br><br>
+            <table class="loginForm">
+                <tbody><tr>
+                    <th colspan="2">DATOS DE ACCESO</th>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"> <span id="CphCuerpo_lblMatricula" style="font-size:Medium;">Usuario:</span></td>
+                    <td>
+                        <input name="ctl00$CphCuerpo$txtUsuario" type="text" maxlength="30" size="50" id="CphCuerpo_txtUsuario" class="loginInput" placeholder="al0000000" style="width:150px;" autocomplete="off">
+                        
+                        <span id="CphCuerpo_lblDominio" class="LabelAlertaBlack">@utcj.edu.mx</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;"><span id="CphCuerpo_Label1" style="font-size:Medium;">Contraseña:</span></td>
+                    <td>
+                        <input name="ctl00$CphCuerpo$txtContrasenia" type="password" maxlength="30" size="50" id="CphCuerpo_txtContrasenia" class="loginInput" style="width:250px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">&nbsp;</td>
+                    <td>
+                        <span id="CphCuerpo_lblErrorLogin" class="LabelAlerta" style="color:Red;font-weight:bold;"></span>
+                        <br>
+                        <input type="submit" name="ctl00$CphCuerpo$btAceptar" value="INICIAR SESIÓN" id="CphCuerpo_btAceptar" class="BotonVerde" style="font-size:11pt;width:260px;">
+                        <br>
+                        <br>
+                        &nbsp;</td>
+                </tr>
+            </tbody></table>
+            <table class="loginForm">
+                <tbody><tr>
+                    <td style="border: 1px solid #C0C0C0; text-align: center; margin: 0px auto; ">
+                        <span id="CphCuerpo_lblCuentas" class="LabelNotificacion"></span>
+                        <br>
+                        <span id="CphCuerpo_lblRecuperacionCuenta" class="LabelTitulo">Si tienes problemas para iniciar sesión, envía una foto de tu<br>credencial escolar vigente al correo soporte_correo@utcj.edu.mx</span>
+                        <br>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; margin: 0px auto; border-top-style: solid; border-top-width: 1px; border-top-color: #C0C0C0;">
+                        <br>
+                        <a href="https://play.google.com/store/apps/details?id=mx.edu.utcj.sisealumnosutcj" target="_blank">
+                        <img id="CphCuerpo_imgSISEApp" src="SISE%20ALUMNOS_files/AppAndroid.jpg" style="width:300px;">
+                        </a>
+                    </td>
+                </tr>
+            </tbody></table>
+            <br>
+         </div> 
+        <div id="mantenimiento" style="text-align: center; float: right; width: 720px; display: none">
+            <img src="SISE%20ALUMNOS_files/AVISO.jpg" width="90%" alt="El SISE se encuentra bajo mantenimiento">
+        </div>
+    
+</div>
+
+    
+    <div id="CphCuerpo_PanelOut" style="width:100%;">
+	
+    
+</div>
+
+                        </div>
+                        <div id="PanelAvisos" class="pnlAvisos" style="height:100%;width:100%;">
+	
+                            <div id="pnlAviso1" style="width:100%;">
+		
+                            
+	</div>
+                            <div id="pnlAviso2" style="width:100%;">
+		
+                                <table style="width: 97%">
+                                    <tbody><tr>
+                                        <td align="center" width="50%">
+                                            <br>
+                                            <a href="https://alumnos.utcj.edu.mx/alumnos/noticias/FormatoConvenioSD23.pdf" target="_blank">
+                                                <img id="imgBecasInsc" src="SISE%20ALUMNOS_files/Convenios.png" style="width:400px;">
+                                            </a>&nbsp; 
+                                            <a href="https://www.utcj.edu.mx/Documents/WhatsApp%20Image%202020-07-09%20at%2011.05.47%20AM.jpeg" target="_blank">
+                                                <img id="imgRegistroSubes" src="SISE%20ALUMNOS_files/RegistroSubes.jpeg" style="height:133px;width:400px;">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" align="center">
+                                            &nbsp;</td>
+                                    </tr>
+                                </tbody></table>
+                                <div>
+                                    <br>
+                                </div>
+                            
+	</div>
+                        
+</div>
+                    </div>
+                    <!-- Fin del Main -->
+                </div>
+                <!-- Fin del content -->
+            </div>
+            <!-- Fin del content-wrap -->
+    
+    <script>
+        $(document).ready(function () {
+            $(".acc").accordion({
+                heightStyle: "content",
+                collapsible: true,
+                activate: function (event, ui) { },
+                animate: 200,
+                active: false
+            })
+            $('#divMenu').mouseenter(
+            function () {
+                if ($("#accordionContainer").is(":hidden")) {
+                    $("#accordionContainer").slideDown("fast");
+                }
+            }).mouseleave(
+            function () {
+                $("#accordionContainer").slideUp("fast");
+            });
+        })
+    </script>
+            <div id="footer" style="text-align: center; background-color: #e8e8e8">
+                <div id="footer-content">
+                    
+
+                </div>
+                <div id="footer_static" style="line-height: 12px;">
+                    <hr style="margin: 0; color: #74A846;">
+                    <p style="font-family: 'Open Sans' sans-serif; font-size: 9pt;">
+                        <b>UNIVERSIDAD TECNOLÓGICA DE CIUDAD JUÁREZ D.R. 2011-2020</b></p>
+                </div>
+            </div>
+            
+            <div style="clear: both;"></div>
+        </div>
+        <!-- Fin del wrap -->
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('CphCuerpo_txtUsuario');//]]>
+</script>
+</form>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>
