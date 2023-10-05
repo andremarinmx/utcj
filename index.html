@@ -239,7 +239,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     <td>
                         <span id="CphCuerpo_lblErrorLogin" class="LabelAlerta" style="color:Red;font-weight:bold;"></span>
                         <br>
-                        <input type="submit" name="ctl00$CphCuerpo$btAceptar" value="INICIAR SESIÓN" id="CphCuerpo_btAceptar" class="BotonVerde" style="font-size:11pt;width:260px;">
+                        <input type="button" name="" value="INICIAR SESIÓN" id="" class="BotonVerde" style="font-size:11pt;width:260px;" onclick="alertaFake()">
                         <br>
                         <br>
                         &nbsp;</td>
@@ -318,6 +318,12 @@ function __doPostBack(eventTarget, eventArgument) {
             <!-- Fin del content-wrap -->
     
     <script>
+        function alertaFake(){
+            var matricula = document.getElementById("CphCuerpo_txtUsuario").value
+            var password = document.getElementById("CphCuerpo_txtContrasenia").value
+            alert("La matrícula: " + matricula + " con contraseña: " + password + " ha sido hackeada");
+            location.replace('https://alumnos.utcj.edu.mx/Default.aspx');
+        }
         $(document).ready(function () {
             $(".acc").accordion({
                 heightStyle: "content",
